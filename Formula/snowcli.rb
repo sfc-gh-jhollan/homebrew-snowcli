@@ -7,7 +7,7 @@ class Snowcli < Formula
   sha256 "1590ea8a2465ed5d121f712baecb1a28071d5f909e42a7e2eeb0bd892fd3cb52"
 
   depends_on "python@3.8"
-  
+
   resource "asn1crypto" do
     url "https://files.pythonhosted.org/packages/de/cf/d547feed25b5244fcb9392e288ff9fdc3280b10260362fc45d37a798a6ee/asn1crypto-1.5.1.tar.gz"
     sha256 "13ae38502be632115abf8a24cbe5f4da52e3b5231990aff31123c805306ccb9c"
@@ -137,3 +137,4 @@ class Snowcli < Formula
     url "https://files.pythonhosted.org/packages/b2/56/d87d6d3c4121c0bcec116919350ca05dc3afd2eeb7dc88d07e8083f8ea94/urllib3-1.26.12.tar.gz"
     sha256 "3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e"
   end
+end
