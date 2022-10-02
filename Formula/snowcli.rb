@@ -5,7 +5,7 @@ class Snowcli < Formula
   url "https://files.pythonhosted.org/packages/fc/78/8c09efe045d37b3b8a1e2a2b84660e5c6958d3381f5bf375c7fa29b59052/snowflake_cli_labs-0.0.1.tar.gz"
   sha256 "1590ea8a2465ed5d121f712baecb1a28071d5f909e42a7e2eeb0bd892fd3cb52"
 
-  depends_on "python@3.10"
+  depends_on "python@3.x"
 
   resource "asn1crypto" do
     url "https://files.pythonhosted.org/packages/de/cf/d547feed25b5244fcb9392e288ff9fdc3280b10260362fc45d37a798a6ee/asn1crypto-1.5.1.tar.gz"
@@ -35,11 +35,6 @@ class Snowcli < Formula
   resource "commonmark" do
     url "https://files.pythonhosted.org/packages/60/48/a60f593447e8f0894ebb7f6e6c1f25dafc5e89c5879fdc9360ae93ff83f0/commonmark-0.9.1.tar.gz"
     sha256 "452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"
-  end
-
-  resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/10/a7/51953e73828deef2b58ba1604de9167843ee9cd4185d8aaffcb45dd1932d/cryptography-36.0.2.tar.gz"
-    sha256 "70f8f4f7bb2ac9f340655cbac89d68c527af5bb4387522a8413e841e3e6628c9"
   end
 
   resource "filelock" do
