@@ -5,7 +5,7 @@ class Snowcli < Formula
   url "https://files.pythonhosted.org/packages/fc/78/8c09efe045d37b3b8a1e2a2b84660e5c6958d3381f5bf375c7fa29b59052/snowflake_cli_labs-0.0.1.tar.gz"
   sha256 "1590ea8a2465ed5d121f712baecb1a28071d5f909e42a7e2eeb0bd892fd3cb52"
 
-  depends_on "python@3"
+  depends_on "python@3.10"
 
   resource "asn1crypto" do
     url "https://files.pythonhosted.org/packages/de/cf/d547feed25b5244fcb9392e288ff9fdc3280b10260362fc45d37a798a6ee/asn1crypto-1.5.1.tar.gz"
