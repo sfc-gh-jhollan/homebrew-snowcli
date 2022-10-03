@@ -108,6 +108,11 @@
       sha256 "ba3a3775974105c221d31141f2c116f4fd65c5ceb0698657a11e9f295ec93fd0"
     end
 
+    resource "six" do
+      url "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz"
+      sha256 "1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"
+    end
+
     resource "snowflake-connector-python" do
       url "https://files.pythonhosted.org/packages/ad/37/db1ef8e2e1c481f647623f6c158e5648de5cd062d50cf9b507b2c6531a77/snowflake-connector-python-2.8.0.tar.gz"
       sha256 "82f67e36e7fe36cd57218a6c04775e83303db231714fdf909ba91bb0947c24b6"
