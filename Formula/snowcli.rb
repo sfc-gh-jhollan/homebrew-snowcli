@@ -2,10 +2,10 @@ class Snowcli < Formula
   include Language::Python::Virtualenv
   desc "A CLI for Snowflake development"
   homepage "https://github.com/snowflake-labs/snowcli"
-  url "https://files.pythonhosted.org/packages/fc/78/8c09efe045d37b3b8a1e2a2b84660e5c6958d3381f5bf375c7fa29b59052/snowflake_cli_labs-0.0.1.tar.gz"
-  sha256 "1590ea8a2465ed5d121f712baecb1a28071d5f909e42a7e2eeb0bd892fd3cb52"
+  url "https://files.pythonhosted.org/packages/20/e1/713801e183c6822cf8626d74ab4a4122b2d3b0963f5a972d98a551fd62b1/snowflake_cli_labs-0.1.0.tar.gz"
+  sha256 "165148af6ce44db42a28a3737cddca95c3d3bb7f8c0ac19337deb6da2d6b0473"
 
-  depends_on "python@3.10"
+  depends_on "python3"
 
   resource "asn1crypto" do
     url "https://files.pythonhosted.org/packages/de/cf/d547feed25b5244fcb9392e288ff9fdc3280b10260362fc45d37a798a6ee/asn1crypto-1.5.1.tar.gz"
@@ -98,8 +98,8 @@ class Snowcli < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/bb/2d/c902484141330ded63c6c40d66a9725f8da5e818770f67241cf429eef825/rich-12.5.1.tar.gz"
-    sha256 "63a5c5ce3673d3d5fbbf23cd87e11ab84b6b451436f1b7f19ec54b6bc36ed7ca"
+    url "https://files.pythonhosted.org/packages/11/23/814edf09ec6470d52022b9e95c23c1bef77f0bc451761e1504ebd09606d3/rich-12.6.0.tar.gz"
+    sha256 "ba3a3775974105c221d31141f2c116f4fd65c5ceb0698657a11e9f295ec93fd0"
   end
 
   resource "snowflake-connector-python" do
