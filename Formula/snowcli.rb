@@ -2,8 +2,8 @@
     include Language::Python::Virtualenv
     desc "A CLI for Snowflake development"
     homepage "https://github.com/snowflake-labs/snowcli"
-    url "https://files.pythonhosted.org/packages/1e/a4/5dd0960f7b1577336314ef64a9ee7cb089f4e6e2e9c00ef40b1507e7e931/snowflake_cli_labs-0.1.6.tar.gz"
-    sha256 "1e49684e3ca026aeb05cc5ba1d1b846d55d42da6be6b50ba853076430022e408"
+    url "https://files.pythonhosted.org/packages/97/b9/fca102ff5fa61188ba762693a4c5032311d31ad250bffa1a841d83f07115/snowflake_cli_labs-0.1.7.tar.gz"
+    sha256 "04ced15966ed343ef3d9ca3b0430b9d9986588827ce3d000b2a2b1dc7dc3f204"
 
     depends_on "rust" => :build
     depends_on "python3"
@@ -74,18 +74,18 @@
     end
 
     resource "PyJWT" do
-      url "https://files.pythonhosted.org/packages/d4/63/6f57a751c9e3135856b44e2c29c548741ec14db3d24b9666e97292aa968e/PyJWT-2.5.0.tar.gz"
-      sha256 "e77ab89480905d86998442ac5788f35333fa85f65047a534adc38edf3c88fc3b"
+      url "https://files.pythonhosted.org/packages/75/65/db64904a7f23e12dbf0565b53de01db04d848a497c6c9b87e102f74c9304/PyJWT-2.6.0.tar.gz"
+      sha256 "69285c7e31fc44f68a1feb309e948e0df53259d579295e6cfe2b1792329f05fd"
     end
 
     resource "pyOpenSSL" do
-      url "https://files.pythonhosted.org/packages/35/d3/d6a9610f19d943e198df502ae660c6b5acf84cc3bc421a2aa3c0fb6b21d1/pyOpenSSL-22.0.0.tar.gz"
-      sha256 "660b1b1425aac4a1bea1d94168a85d99f0b3144c869dd4390d27629d0087f1bf"
+      url "https://files.pythonhosted.org/packages/e7/2f/c6d89edac75482f11e231b644e365d31d5479b7b727734e6a8f3d00decd5/pyOpenSSL-22.1.0.tar.gz"
+      sha256 "7a83b7b272dd595222d672f5ce29aa030f1fb837630ef229f62e72e395ce8968"
     end
 
     resource "pytz" do
-      url "https://files.pythonhosted.org/packages/31/da/2d48d3499b59c7f3c5d5e1c79fcee5537c320c8ab7b7a0cd2db578bc34b3/pytz-2022.4.tar.gz"
-      sha256 "48ce799d83b6f8aab2020e369b627446696619e79645419610b9facd909b3174"
+      url "https://files.pythonhosted.org/packages/fe/dd/182cc5ed8e64a0d6d6c34fd27391041d542270000825410d294bd6902207/pytz-2022.5.tar.gz"
+      sha256 "c4d88f472f54d615e9cd582a5004d1e5f624854a6a27a6211591c251f22a6914"
     end
 
     resource "PyYAML" do
@@ -114,8 +114,8 @@
     end
 
     resource "snowflake-connector-python" do
-      url "https://files.pythonhosted.org/packages/ad/37/db1ef8e2e1c481f647623f6c158e5648de5cd062d50cf9b507b2c6531a77/snowflake-connector-python-2.8.0.tar.gz"
-      sha256 "82f67e36e7fe36cd57218a6c04775e83303db231714fdf909ba91bb0947c24b6"
+      url "https://files.pythonhosted.org/packages/55/c3/d096d20e5c95c2fcae7da051eacb4f2a884afeccc81ee00bb526112fd4bf/snowflake-connector-python-2.8.1.tar.gz"
+      sha256 "cdc1eec036606ab64f474e39b00024d60d72be65a047aec065b7d3511970cd5e"
     end
 
     resource "toml" do
@@ -134,8 +134,8 @@
     end
 
     resource "typing-extensions" do
-      url "https://files.pythonhosted.org/packages/9e/1d/d128169ff58c501059330f1ad96ed62b79114a2eb30b8238af63a2e27f70/typing_extensions-4.3.0.tar.gz"
-      sha256 "e6d2677a32f47fc7eb2795db1dd15c1f34eff616bcaf2cfb5e997f854fa1c4a6"
+      url "https://files.pythonhosted.org/packages/e3/a7/8f4e456ef0adac43f452efc2d0e4b242ab831297f1bac60ac815d37eb9cf/typing_extensions-4.4.0.tar.gz"
+      sha256 "1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa"
     end
 
     resource "urllib3" do
