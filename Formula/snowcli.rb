@@ -153,6 +153,11 @@
       sha256 "3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e"
     end
 
+    resource "zipp" do
+      url "https://files.pythonhosted.org/packages/8e/b3/8b16a007184714f71157b1a71bbe632c5d66dd43bc8152b3c799b13881e1/zipp-3.11.0.tar.gz"
+      sha256 "a7a22e05929290a67401440b39690ae6563279bced5f314609d9d03798f56766"
+    end
+
     def install
       ENV["CARGO_NET_GIT_FETCH_WITH_CLI"] = "true"
       venv = virtualenv_create(libexec, "python3", system_site_packages: false)
