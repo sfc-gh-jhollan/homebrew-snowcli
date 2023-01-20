@@ -2,8 +2,8 @@
     include Language::Python::Virtualenv
     desc "A CLI for Snowflake development"
     homepage "https://github.com/snowflake-labs/snowcli"
-    url "https://files.pythonhosted.org/packages/69/52/7e7499de6093d3264be99c303db173db1af1a13aa5f168d61160e857b7ed/snowflake_cli_labs-0.1.15.tar.gz"
-    sha256 "d605156ced82bd31ec248a974f9ec991c1f077220835ccb07b1b12c1abe0a02d"
+    url "https://files.pythonhosted.org/packages/8b/1d/52aa35e78295d7b36b10264f3a7eccf40130ed598bc5b53ed0a3fff1f9da/snowflake_cli_labs-0.1.16.tar.gz"
+    sha256 "2024492386d7a5a40e2f8f4376cd2822df27755e7721248988f4b33e83270499"
 
     depends_on "rust" => :build
     depends_on "python3"
@@ -51,6 +51,11 @@
     resource "idna" do
       url "https://files.pythonhosted.org/packages/8b/e1/43beb3d38dba6cb420cefa297822eac205a277ab43e5ba5d5c46faf96438/idna-3.4.tar.gz"
       sha256 "814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"
+    end
+
+    resource "keyring" do
+      url "https://files.pythonhosted.org/packages/55/fe/282f4c205add8e8bb3a1635cbbac59d6def2e0891b145aa553a0e40dd2d0/keyring-23.13.1.tar.gz"
+      sha256 "ba2e15a9b35e21908d0aaf4e0a47acc52d6ae33444df0da2b49d41a46ef6d678"
     end
 
     resource "oscrypto" do
