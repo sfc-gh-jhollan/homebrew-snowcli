@@ -2,8 +2,8 @@
     include Language::Python::Virtualenv
     desc "A CLI for Snowflake development"
     homepage "https://github.com/snowflake-labs/snowcli"
-    url "https://files.pythonhosted.org/packages/f7/77/7bf0c9e57230195914eaa00d2bbafbdbbb691dc6c22009772db48054abd3/snowflake_cli_labs-0.1.24.tar.gz"
-    sha256 "34f79406eaf140059d0aac2b5176839ea8b4b340709747569bb4fab5529bab46"
+    url "https://files.pythonhosted.org/packages/95/10/477f868e5471f5b34e3226175c606264b09da682a36e6b888f01df2c44e1/snowflake_cli_labs-0.2.0.tar.gz"
+    sha256 "828c6a386350f02aa14f822629651d2cbd9f4eb77277bf36d79422fa04f930f2"
 
     depends_on "rust" => :build
     depends_on "python3"
@@ -38,6 +38,11 @@
       sha256 "452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"
     end
 
+    resource "coverage" do
+      url "https://files.pythonhosted.org/packages/8d/4a/3518606d4b110df4f3e77bd52c241ae8a84c6dc74fac7c2a8e809449e541/coverage-7.2.1.tar.gz"
+      sha256 "c77f2a9093ccf329dd523a9b2b3c854c20d2a3d968b6def3b820272ca6732242"
+    end
+
     resource "cryptography" do
       url "https://files.pythonhosted.org/packages/6d/0c/5e67831007ba6cd7e52c4095f053cf45c357739b0a7c46a45ddd50049019/cryptography-38.0.1.tar.gz"
       sha256 "1db3d807a14931fa317f96435695d9ec386be7b84b618cc61cfa5d08b0ae33d7"
@@ -56,6 +61,11 @@
     resource "importlib-metadata" do
       url "https://files.pythonhosted.org/packages/90/07/6397ad02d31bddf1841c9ad3ec30a693a3ff208e09c2ef45c9a8a5f85156/importlib_metadata-6.0.0.tar.gz"
       sha256 "e354bedeb60efa6affdcc8ae121b73544a7aa74156d047311948f6d711cd378d"
+    end
+
+    resource "jinja2" do
+      url "https://files.pythonhosted.org/packages/7a/ff/75c28576a1d900e87eb6335b063fab47a8ef3c8b4d88524c4bf78f670cce/Jinja2-3.1.2.tar.gz"
+      sha256 "31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852"
     end
 
     resource "keyring" do
