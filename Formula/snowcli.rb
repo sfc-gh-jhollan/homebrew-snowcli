@@ -2,8 +2,8 @@
     include Language::Python::Virtualenv
     desc "A CLI for Snowflake development"
     homepage "https://github.com/snowflake-labs/snowcli"
-    url "https://files.pythonhosted.org/packages/f0/6a/54c9d087bb036a288ceac280e820d63175436ba44d7194ee613f062f3c57/snowflake_cli_labs-0.2.7.tar.gz"
-    sha256 "d39acf9740e0a1e6347defe69ee087eb4773b246ddf934994c99babf262656d0"
+    url "https://files.pythonhosted.org/packages/22/62/debbc9bfa1c39f90395e1e7bf2c5fbc1a7a1750f1c709403595b9759022c/snowflake_cli_labs-0.2.8.tar.gz"
+    sha256 "671b133b73d0626af2363e42a6b0b94551b6d5b6b240583c8fb0953e4de32466"
 
     depends_on "rust" => :build
     depends_on "python3"
